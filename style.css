@@ -44,3 +44,24 @@ footer {
     bottom: 0;
     width: 100%;
 }
+@media (min-width: 600px) {
+    nav ul li {
+        margin: 0 2em;
+    }
+
+    main {
+        padding: 3em;
+    }
+}
+
+@media (min-width: 800px) {
+    main {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    section {
+        margin: 1em;
+    }
+}
